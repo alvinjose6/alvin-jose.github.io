@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvin Jose - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+            color: #007bff;
+            font-size: 2em;
+        }
+        h2 {
+            color: #0056b3;
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        h3 {
+            margin: 10px 0 5px;
+            color: #333;
+            font-size: 1.2em;
+        }
+        p, ul {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .contact-info {
+            font-size: 0.95em;
+            color: #555;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .date {
+            font-style: italic;
+            color: #666;
+        }
+        .language-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        .language-table th, .language-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .language-table th {
+            background-color: #f8f8f8;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.6em;
+            }
+            h2 {
+                font-size: 1.3em;
+            }
+            h3 {
+                font-size: 1.1em;
+            }
+            .language-table th, .language-table td {
+                font-size: 0.9em;
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Alvin Jose</h1>
+            <p class="contact-info">
+                Email: <a href="mailto:alvinjose6@gmail.com">alvinjose6@gmail.com</a> | 
+                Phone: (+49) 16099880769 | 
+                WhatsApp: +919400010851 | 
+                LinkedIn: <a href="https://www.linkedin.com/in/alvin-jose-22089678">linkedin.com/in/alvin-jose-22089678</a> | 
+                Address: Vettersstr. 54/19, 09126 Chemnitz, Germany
+            </p>
+        </header>
+        <div class="section">
+            <h2>About Me</h2>
+            <p>MSc student in Design and Test for Integrated Circuits at Chemnitz University of Technology, with over two years as a Hardware Design Engineer advancing automotive power electronics. Expert in MOSFET testing (up to 1200 V), simulation (LTspice), and test bench development, with proven success in gate driver design and AQG-324 reliability testing (HTRB, HTGB, H3TRB). Skilled in LabVIEW programming and team collaboration, eager to optimize transistor design and process integration.</p>
+        </div>
+        <div class="section">
+            <h2>Work Experience</h2>
+            <h3>Hardware Developer (Working Student) - Power Electronics</h3>
+            <p><strong>Chemnitz Power Labs, Chemnitz, Germany</strong> <span class="date">Feb 2024 - Jun 2025</span></p>
+            <ul>
+                <li>Conducted measurements on automotive MOSFET modules, including gate threshold (Vth), gate leakage (IGSS), drain-source leakage (IDSS), body diode (VSD), and RDson.</li>
+                <li>Performed high-voltage measurements up to 1200 V.</li>
+                <li>Designed PCB adapters and gate drivers using KiCAD.</li>
+                <li>Utilized LTspice for project simulations and analyzed gate driver response under various conditions.</li>
+                <li>Developed and operated test benches, including power cycling and HV Zilla for gate leakage measurement.</li>
+                <li>Programmed in LabVIEW and supported reliability tests (HTRB, HTGB, H3TRB).</li>
+                <li>Proficient in using power supplies, multimeters, oscilloscopes, and curve tracers (Keysight).</li>
+                <li>Documented data using Excel, created presentations in PowerPoint, and managed tasks via Microsoft Teams and Planner.</li>
+            </ul>
+            <h3>Hardware Design Engineer</h3>
+            <p><strong>Riod Logic, Cochin, Kerala, India</strong> <span class="date">Jun 2021 - Sep 2023</span></p>
+            <ul>
+                <li>Designed DC/DC power supplies, LDOs, and battery-operated products using Altium Designer and LTspice.</li>
+                <li>Performed board bring-up, interface testing, and debugging using multimeters, logic analyzers, and DSOs.</li>
+                <li>Developed multi-layer (4-layer) schematics and PCB layouts.</li>
+                <li>Programmed in Python, C, and C++ for hardware-related tasks.</li>
+            </ul>
+            <h3>Technical Support Engineer</h3>
+            <p><strong>Estrado Technologies, Trivandrum, Kerala, India</strong> <span class="date">May 2020 - Aug 2021</span></p>
+            <ul>
+                <li>Provided customer support via phone and email.</li>
+                <li>Managed SQL server operations for client systems.</li>
+            </ul>
+            <h3>Technical Support Engineer - Automation</h3>
+            <p><strong>Livewire India (CADD Centre), Thrissur, Kerala, India</strong> <span class="date">Feb 2019 - Mar 2020</span></p>
+            <ul>
+                <li>Developed IoT communication systems using MQTT protocols for cloud and client devices.</li>
+                <li>Conducted data analysis for automation projects.</li>
+            </ul>
+            <h3>Engineer in Electrical Systems</h3>
+            <p><strong>Remomech Engineering, Pune, India</strong> <span class="date">May 2017 - Feb 2019</span></p>
+            <ul>
+                <li>Operated a 4MW (4000KW, 11KV, 5360 Hp, 375 Rpm) synchronous motor (WEG) using Siemens SPPA T-1000 DCS.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <h3>MSc in Design and Test for Integrated Circuits</h3>
+            <p><strong>Technische Universität Chemnitz, Germany</strong> <span class="date">Oct 2023 - Present</span></p>
+            <ul>
+                <li>Coursework: Technologies for Micro and Nano Systems, Integrated Circuit Design (Transistor Level), Reliability of Micro and Nano Systems, Micro and Nano Devices, Smart Sensor Systems, Advanced Integrated Circuit Technologies.</li>
+                <li>Credits: 34</li>
+            </ul>
+            <h3>Bachelor of Technology in Electrical and Electronics</h3>
+            <p><strong>Sahrdaya College of Engineering, Thrissur, India</strong> <span class="date">May 2012 - Jun 2016</span></p>
+        </div>
+        <div class="section">
+            <h2>Language Skills</h2>
+            <table class="language-table">
+                <tr>
+                    <th>Language</th>
+                    <th>Listening</th>
+                    <th>Speaking (Production)</th>
+                    <th>Speaking (Interaction)</th>
+                    <th>Writing</th>
+                </tr>
+                <tr>
+                    <td>Malayalam</td>
+                    <td>Mother tongue</td>
+                    <td>Mother tongue</td>
+                    <td>Mother tongue</td>
+                    <td>Mother tongue</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>C1</td>
+                    <td>C1</td>
+                    <td>C1</td>
+                    <td>C1</td>
+                </tr>
+                <tr>
+                    <td>Hindi</td>
+                    <td>B1</td>
+                    <td>A2</td>
+                    <td>A2</td>
+                    <td>A2</td>
+                </tr>
+                <tr>
+                    <td>German</td>
+                    <td>C1</td>
+                    <td>C1</td>
+                    <td>C1</td>
+                    <td>C1</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Design Tools: KiCAD, Altium Designer, LTspice</li>
+                <li>Programming: LabVIEW, Python, C, C++</li>
+                <li>Debugging Tools: Multimeters, Oscilloscopes, Logic Analyzers, DSOs, Curve Tracer (Keysight)</li>
+                <li>Simulation: LTspice, LT PSpice</li>
+                <li>Other: SQL, MQTT (IoT protocols), Microsoft Excel, PowerPoint, Teams, Planner</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
